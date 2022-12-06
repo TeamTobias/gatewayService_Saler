@@ -16,11 +16,11 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: manager-login-service
-          uri: lb://manager-login-service
+        - id: saler-login-service
+          uri: lb://saler-login-service
           predicates:
-            - Path=/manager-login-service/**
-        - id: manager-service
-          uri: lb://manager-service
+            - Path=/saler-login-service/**
+        - id: saler-service
+          uri: lb://saler-service
           predicates:
-            - Path=/manager-service/**
+            - Path=/saler-service/**
