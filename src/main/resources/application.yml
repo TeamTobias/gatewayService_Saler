@@ -10,7 +10,7 @@ eureka:
 
 spring:
   application:
-    name: gateWayService Saler
+    name: gateWayService_Saler
   cloud:
     gateway:
       routes:
